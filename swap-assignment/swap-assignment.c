@@ -7,7 +7,20 @@ int main (){
     float b = 8.9;
 
     printf ("a is %f\n", a);
-    printf ("a is %f\n", b);
+    printf ("b is %f\n", b);
+
+    //swap a and b
+
+    float c; //introduce an empty container
+
+    c=a;
+    a=b;
+    b=c;
+    
+    //print new values
+
+    printf("a is now  %f\n", a);
+    printf("b is now %f\n", b);
 
     return 0;
 }
